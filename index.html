@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+    <style>
+        /* Simple CSS just to separate sections visually */
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        nav a { margin-right: 15px; }
+        section { margin-top: 40px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#department">Department</a>
+        <a href="#facility">Facility</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Anjuman-I-Islam's Kalsekar Technical Campus</h1>
+        <p>This is the official website of our college.</p>
+        <h2>About Us</h2>
+        <p>Anjuman-I-Islam's Kalsekar Technical Campus (AIKTC) offers engineering, architecture, pharmacy, and management programs.</p>
+        <p>Our mission is to provide world-class education and nurture future professionals with strong ethical values.</p>
+        <p>Visit our <a href="https://www.aiktc.ac.in" target="_blank">official website</a></p>
+    </section>
+
+    <!-- Department Section -->
+    <section id="department">
+        <h1>Departments</h1>
+        <h2>List of Departments</h2>
+        <table>
+            <tr>
+                <th>Department</th>
+                <th>Head</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>Computer Science & Engineering (AI & ML)</td>
+                <td>Dr. Salim Shaikh</td>
+                <td>aiml@aiktc.ac.in</td>
+            </tr>
+            <tr>
+                <td>Computer Science & Engineering (DS)</td>
+                <td>Dr. Tabassum</td>
+                <td>ds@aiktc.ac.in</td>
+            </tr>
+            <tr>
+                <td>Computer Engineering</td>
+                <td>Dr. Tabrez Khan</td>
+                <td>co@aiktc.edu</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Facility Section -->
+    <section id="facility">
+        <h1>Facilities</h1>
+        <h2>Academic Facilities</h2>
+        <ol>
+            <li>Modern Computer Labs</li>
+            <li>Digital Library</li>
+            <li>Wi-Fi Enabled Campus</li>
+            <li>Smart Classrooms</li>
+        </ol>
+
+        <h2>Student Facilities</h2>
+        <ul>
+            <li>Hostel Accommodation</li>
+            <li>Sports Ground</li>
+            <li>Cafeteria</li>
+            <li>Transportation</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form>
+            Name: <input type="text" name="name"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Message:<br>
+            <textarea rows="5" cols="40" name="message"></textarea><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+
+</body>
+</html>
